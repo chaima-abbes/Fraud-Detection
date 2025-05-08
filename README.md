@@ -36,7 +36,7 @@ Data preprocessing steps:
 - scikit-learn
 - XGBoost
 - imbalanced-learn
-- PySyft or Flower (for federated learning)
+- PySyft (for federated learning)
 - pandas, numpy, matplotlib, seaborn
 
 ##  Evaluation Metrics
@@ -58,7 +58,7 @@ To evaluate model effectiveness in a highly imbalanced setting:
 
 ##  Federated Learning
 
-- Framework used: **[Flower / PySyft]**
+- Framework used: **[PySyft]**
 - Simulated multiple clients (banks/branches)
 - Each client trains locally on private data
 - Periodic aggregation to update global model
